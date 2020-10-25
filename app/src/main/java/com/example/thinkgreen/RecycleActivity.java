@@ -15,7 +15,7 @@ public class RecycleActivity extends AppCompatActivity {
     }
     public void metalMessage(View view) {
         // Do something in response to button click
-        Intent intent = new Intent (this, RecycleActivity.class);
+        Intent intent = new Intent (this, MetalRecycle.class);
         startActivity(intent);
     }
     public void paperMessage(View view) {

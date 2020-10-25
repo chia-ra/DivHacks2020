@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".paperRecycle">
+    tools:context=".MetalRecycle">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,32 +15,35 @@
         android:showDividers="middle">
 
         <TextView
-            android:id="@+id/papRec"
+            android:id="@+id/metalRec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Paper Recycling"
+            android:text="Metal Recycling"
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/queryText"
-            android:layout_width="wrap_content"
+            android:id="@+id/infoText"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="What type of paper product do you need to recycle?"
+            android:text="Metal beverage containers can be redeemed for cash at >5¢ per container under 24oz or >10¢ per container over 24oz."
             android:textSize="20sp" />
 
-        <AutoCompleteTextView
-            android:id="@+id/autoPaper"
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Metals Not Recyclable in CA:" />
 
         <TextView
-            android:id="@+id/tv5"
+            android:id="@+id/tvNonRec"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:gravity="center"
+            android:scrollbars="vertical"
             android:textSize="20sp" />
 
 
