@@ -30,7 +30,7 @@ public class RecycleActivity extends AppCompatActivity {
     }
     public void glassMessage(View view) {
         // Do something in response to button click
-        Intent intent = new Intent (this, RecycleActivity.class);
+        Intent intent = new Intent (this, GlassRecycle.class);
         startActivity(intent);
     }
 }
