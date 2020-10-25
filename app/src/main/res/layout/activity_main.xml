@@ -23,6 +23,7 @@
         android:layout_width="267dp"
         android:layout_height="80dp"
         android:text="What would you like to do today?"
+        android:gravity="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintLeft_toLeftOf="parent"
