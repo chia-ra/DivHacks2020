@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Metal Recycling"
+            android:text="Plastic Recycling"
             android:textSize="30sp" />
 
         <TextView
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:gravity="center"
-            android:text="Plastics Not Recyclable in CA:" />
+            android:text="Plastics #1-#7 are usually recyclable. Other types must be dropped off at accepting locations:" />
 
         <TextView
             android:id="@+id/scrollerplas"

@@ -11,7 +11,8 @@
         android:theme="@style/Theme.ThinkGreen">
         <activity android:name=".MetalReuse"
             android:parentActivityName=".ReuseActivity" />
-        <activity android:name=".PlasticRecycle" />
+        <activity android:name=".PlasticRecycle"
+            android:parentActivityName=".RecycleActivity" />
         <activity
             android:name=".MetalRecycle"
             android:parentActivityName=".RecycleActivity" />

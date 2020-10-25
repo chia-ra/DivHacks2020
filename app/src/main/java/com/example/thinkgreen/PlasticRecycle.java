@@ -14,18 +14,18 @@ public class PlasticRecycle extends AppCompatActivity {
         setContentView(R.layout.activity_plastic_recycle);
 
         TextView textView = (TextView) findViewById(R.id.scrollerplas);
-        String para = "Paint Cans" +
-                "\n Motor Oil Cans" +
-                "\n Pots and Pans" +
-                "\n Propane Gas Tanks" +
-                "\n Fluorescent Bulbs" +
-                "\n CFL bulbs" +
-                "\n Old Thermostats" +
-                "\n Toys and Jewelry" +
-                "\n Batteries" +
-                "\n Certain Car Parts" +
-                "\n TV/Computer Monitors" +
-                "\n Radioactive Metal";
+        String para = "Plastic Film(e.g. bags)" +
+                "\n Water Jugs" +
+                "\n Ink Cartridges" +
+                "\n CD Cases" +
+                "\n Polystyrene Containers" +
+                "\n Plastic Utensils" +
+                "\n Styrofoam" +
+                "\n Keyboards" +
+                "\n Paper Cups with Plastic Coating" +
+                "\n Fiberglass" +
+                "\n Foams" +
+                "\n Vinyl";
         textView.setText(para);
         textView.setMovementMethod(new ScrollingMovementMethod());
     }
