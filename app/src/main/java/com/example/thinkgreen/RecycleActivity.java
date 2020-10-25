@@ -25,7 +25,7 @@ public class RecycleActivity extends AppCompatActivity {
     }
     public void plasticMessage(View view) {
         // Do something in response to button click
-        Intent intent = new Intent (this, RecycleActivity.class);
+        Intent intent = new Intent (this, PlasticRecycle.class);
         startActivity(intent);
     }
     public void glassMessage(View view) {

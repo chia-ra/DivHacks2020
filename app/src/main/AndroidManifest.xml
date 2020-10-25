@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ThinkGreen">
-        <activity android:name=".MetalRecycle"
-            android:parentActivityName="RecycleActivity"/>
-        <activity android:name=".paperRecycle"
-            android:parentActivityName="RecycleActivity"/>
+        <activity android:name=".MetalReuse"
+            android:parentActivityName=".ReuseActivity" />
+        <activity android:name=".PlasticRecycle" />
+        <activity
+            android:name=".MetalRecycle"
+            android:parentActivityName=".RecycleActivity" />
+        <activity
+            android:name=".paperRecycle"
+            android:parentActivityName=".RecycleActivity" />
         <activity
             android:name=".RecycleActivity"
             android:parentActivityName=".MainActivity" />
